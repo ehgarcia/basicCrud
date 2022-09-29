@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.selector{
+    padding: 5%;
+    font-size: large;
+}
+
+
+.delete{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.delete-button{ 
+    background-color: #14213D;
+    border-color: #14213D;
+    color: #fff;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.delete-button:hover{
+    cursor: pointer;
+}
