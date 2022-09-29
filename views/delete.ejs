@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <%-include('./partials/head',{title:'Delete View', style:'delete'})%> 
+  <body>
+      <div class="wrapper">
+        <div class="container">
+          <div class="selector">
+            <label for="card-choice">Elegi el elemento:</label>
+            <input list="card-choice-list" id="card-choice" name="card-choice">
+            
+            <datalist id="card-choice-list">
+              <option value="Chocolate">
+              <option value="Coconut">
+              <option value="Mint">
+              <option value="Strawberry">
+              <option value="Vanilla">
+            </datalist>
+          </div>
+
+          <div class="delete">
+            <button class="delete-button" type="submit">Delete</button>
+          </div>
+
+        </div>
+      </div>
+  </body>
+</html>
